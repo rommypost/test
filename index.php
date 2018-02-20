@@ -10,6 +10,10 @@
 <body>
 Hello world
 new line
+<<<<<<< HEAD
 master line 1
+=======
+test new branch
+>>>>>>> my-new-branch
 </body>
 </html>

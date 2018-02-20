@@ -5,14 +5,22 @@ git config --global user.email "rommypost@gmail.com"
 git add index.php
 git commit -m 'в коммите указать что было сделано и для чего'
 git log
-  - вниз enter
-  - выйти q
+    - вниз enter
+    - выйти q
 git config --global alias.tree "log --oneline --decorate --all --graph"
 git tree
 git diff
 git checkout <hash>
 git checkout master
 git branch
- master -неприкосновенная ветка в которую не должны просто так попадать коммиты
+    master -неприкосновенная ветка в которую не должны просто так попадать коммиты
 git branch my-new-branch
-'dummy-бессмысленный комментарий'
+    'dummy-бессмысленный комментарий'
+ветки:
+    master - production server
+    development - ветка для ведения разработки
+    staging - проверочная перед мастером ветка, проверка перед продакшеном, рабочие правки.
+    feature/something
+    fix/something - для редактирования маленьких фич
+git branch -d -удаление ветки (ветка это как ярлык, коммиты не удаляются)
+    
