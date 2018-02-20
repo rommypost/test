@@ -15,3 +15,4 @@ git checkout master
 git branch
  master -неприкосновенная ветка в которую не должны просто так попадать коммиты
 git branch my-new-branch
+'dummy-бессмысленный комментарий'
