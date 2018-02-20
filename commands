@@ -10,4 +10,8 @@ git log
 git config --global alias.tree "log --oneline --decorate --all --graph"
 git tree
 git diff
-git checkout 531eb0f
+git checkout <hash>
+git checkout master
+git branch
+ master -неприкосновенная ветка в которую не должны просто так попадать коммиты
+git branch my-new-branch
