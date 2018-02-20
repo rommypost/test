@@ -1,0 +1,4 @@
+git init
+git status
+git config --global user.name "Korol Roman"
+git config --global user.email "rommypost@gmail.com"
